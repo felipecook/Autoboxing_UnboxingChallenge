@@ -8,8 +8,8 @@ public class BankingBranch {
     this.branchName = branchName;
   }
 
-  public void addCustomer (String name) {
-    Customer customer = new Customer(name);
+  public void addCustomer (String name, Double initialAmount) {
+    Customer customer = new Customer(name, initialAmount);
     // Needs a check to see about if the customer is already enrolled
     enrolledCustomers.add(customer);
   }

@@ -16,7 +16,7 @@ public class Customer {
   public void addTransaction(double amount) {
     this.transactions.add(amount);
   }
-  
+
   public ArrayList<Double> getTransactions() {
     return transactions;
   }
